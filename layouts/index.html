@@ -1,8 +1,14 @@
 {{ define "main" }}
 <section>
-  <header><h2 id="tags">Tags</h2></header>
   | {{ range .Site.Taxonomies.tags }}
   <a class="tag" href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> |
   {{ end }}
+</section>
+
+<section>
+{{ range $index, $page := .Site.RegularPages }}
+  {{ .Title }}
+{{ end }}
+
 </section>
 {{ end }}

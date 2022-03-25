@@ -1,21 +1,12 @@
-# theme.toml template for a Hugo theme
-# See https://github.com/gohugoio/hugoThemes#themetoml for an example
-
-name = "Terminal Cookbook"
+name = "terminal-cookbook"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
-description = ""
-homepage = "http://example.com/"
+licenselink = "https://git.ullmann.space/rullmann/hugo-theme-terminal-cookbook/src/branch/main/LICENSE"
+description = "A hugo theme for recipes made for minimalist terminal enthusiasts"
+homepage = "https://git.ullmann.space/rullmann/hugo-theme-terminal-cookbook"
 tags = []
 features = []
 min_version = "0.41.0"
 
 [author]
-  name = ""
-  homepage = ""
-
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
+  name = "Rico Ullmann"
+  homepage = "https://ullmann.space"

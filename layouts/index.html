@@ -5,10 +5,11 @@
   {{ end }}
 </section>
 
+<hr />
+
 <section>
 {{ range $index, $page := .Site.RegularPages }}
-  {{ .Title }}
+  {{ partial "recipe_summary.html" $page }}
 {{ end }}
-
 </section>
 {{ end }}

@@ -1,5 +1,5 @@
 <section>
-  <a class="box" href="{{ .Permalink }}" aria-label="{{ .Title }}">
+  <a href="{{ .Permalink }}" aria-label="{{ .Title }}">
     <div class="terminal-card">
       <header>{{ .Title }} ({{ .Params.Time }})</header>
       <div class="image_resize">
@@ -13,10 +13,6 @@
         {{ end }}
         <center>
           {{ .Summary }}
-          <br><br>
-          {{ range .Params.Tags }}
-          <span class="tag">{{ . }}</span>
-          {{ end }}
         </center>
       </div>
     </div>

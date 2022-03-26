@@ -2,7 +2,7 @@
 <h3 class="title">{{ humanize .Page.Title }}</h3>
 
 {{ range $index, $page := .Pages }}
-  {{ .Title }}
+  {{ partial "recipe_summary.html" $page }}
 {{ end }}
 
 {{ end }}

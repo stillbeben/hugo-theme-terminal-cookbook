@@ -1,0 +1,20 @@
+<section>
+  <div class="terminal-card" max-width="600px">
+    <header>{{ .Title }}</header>
+    <div class="image_resize">
+      {{ with .Params.featured_image }}
+      <img
+      src="{{ . }}"
+      height="256px"
+      display="inline-block"
+      alt="{{ . }}"
+      />
+      <hr />
+      {{ end }}
+      <center>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, quas
+      ex vero enim in doloribus officiis ullam vel nam esse sapiente velit
+      incidunt. Eaque quod et, aut maiores excepturi sint.</center>
+    </div>
+  </div>
+  <br />
+</section>

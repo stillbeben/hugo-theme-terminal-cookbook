@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="section">
+  <div class="terminal-card">
+    <header>{{ .Title }} ({{ .Params.Time }})</header>
+    <div class="image_resize">
+      {{ with .Params.featured_image }}
+      <img
+      src="{{ . }}"
+      height="256px"
+      alt="{{ . }}"
+      />
+      <hr />
+      {{ end }}
+      <center>
+        {{ .Summary }}
+        <br><br>
+        {{ range .Params.Tags }}
+        <a class="tag" href="/tags/{{ . }}">{{ . }}</a>
+        {{ end }}
+      </center>
+      <hr />
+      {{ .Content }}
+    </div>
+  </div>
+</div>
+{{ end }}

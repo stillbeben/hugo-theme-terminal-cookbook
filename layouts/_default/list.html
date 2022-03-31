@@ -1,8 +1,12 @@
 {{ define "main" }}
 <h3 class="title">{{ humanize .Page.Title }}</h3>
 
-{{ range $index, $page := .Pages }}
-  {{ partial "recipe_summary.html" $page }}
-{{ end }}
+<section>
+  <div class="components-grid">
+    {{ range $index, $page := .Pages }}
+      {{ partial "recipe_summary.html" $page }}
+    {{ end }}
+  </div>
+</section>
 
 {{ end }}

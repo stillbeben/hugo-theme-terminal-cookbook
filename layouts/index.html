@@ -8,8 +8,10 @@
 <hr />
 
 <section>
-{{ range $index, $page := .Site.RegularPages }}
-  {{ partial "recipe_summary.html" $page }}
-{{ end }}
+  <div class="components-grid">
+  {{ range $index, $page := .Site.RegularPages }}
+    {{ partial "recipe_summary.html" $page }}
+  {{ end }}
+  </div>
 </section>
 {{ end }}

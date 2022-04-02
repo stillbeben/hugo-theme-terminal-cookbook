@@ -1,8 +1,10 @@
-<footer style="position: fixed; bottom: 0;">
-    {{ if $.Site.Copyright }}
-      {{ $.Site.Copyright | safeHTML }}
-    {{ else }}
-      © {{ now.Year }} Powered by <a href="http://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo</a>
-    {{ end }}
-      :: <a href="https://git.ullmann.space/rullmann/hugo-theme-terminal-cookbook" target="_blank" rel="noopener noreferrer">terminal-cookbook</a> theme
-</footer> 
+<section>
+  <footer>
+      {{ if $.Site.Copyright }}
+        {{ $.Site.Copyright | safeHTML }}
+      {{ else }}
+        © {{ now.Year }} Powered by <a href="http://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo</a>
+      {{ end }}
+        :: <a href="https://git.ullmann.space/rullmann/hugo-theme-terminal-cookbook" target="_blank" rel="noopener noreferrer">terminal-cookbook</a> theme
+  </footer>
+</section>

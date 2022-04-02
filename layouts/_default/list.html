@@ -3,7 +3,7 @@
 
 <section>
   <div class="components-grid">
-    {{ range $index, $page := .Pages }}
+    {{ range $index, $page := .Pages.ByLinkTitle }}
       {{ partial "recipe_summary.html" $page }}
     {{ end }}
   </div>

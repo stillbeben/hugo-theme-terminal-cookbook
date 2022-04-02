@@ -4,11 +4,13 @@
     <header>{{ .Title }} ({{ .Params.Time }})</header>
     <div class="image-grid">
       {{ with .Params.featured_image }}
-      <img
-      src="{{ . }}"
-      height="256px"
-      alt="{{ . }}"
-      />
+      <a href="{{ . }}">
+        <img
+        src="{{ . }}"
+        height="256px"
+        alt="{{ . }}"
+        />
+    </a>
       <hr />
       {{ else }}
       <br>

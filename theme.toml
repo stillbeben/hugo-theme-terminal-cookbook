@@ -1,11 +1,11 @@
 name = "terminal-cookbook"
 license = "MIT"
-licenselink = "https://git.ullmann.space/rullmann/hugo-theme-terminal-cookbook/src/branch/main/LICENSE"
+licenselink = "https://github.com/rullmann/hugo-theme-terminal-cookbook/blob/main/LICENSE"
 description = "A hugo theme for recipes made for minimalist terminal enthusiasts"
-homepage = "https://git.ullmann.space/rullmann/hugo-theme-terminal-cookbook"
-tags = []
-features = []
-min_version = "0.41.0"
+homepage = "https://github.com/rullmann/hugo-theme-terminal-cookbook"
+tags = ["minimal", "dark", "responsive"]
+features = ["cookbook"]
+min_version = "0.80.0"
 
 [author]
   name = "Rico Ullmann"

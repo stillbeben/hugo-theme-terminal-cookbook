@@ -2,9 +2,11 @@
 
 ![terminal-cookbook](https://github.com/rullmann/hugo-theme-terminal-cookbook/raw/main/images/screenshot.png)
 
-## General informations
+## General information
 
 Thanks to [hugo-cookbook](https://github.com/deranjer/hugo-cookbook) and [recipe-book](https://github.com/rametta/recipe-book). Both inspired this theme and showed that a recipe book is possible with hugo.
+
+The pizza favicon and the boiled egg from the example recipe are provided by [tabler-icons](https://github.com/tabler/tabler-icons) un der the MIT license.
 
 ---
 

@@ -104,27 +104,27 @@ It's recommended to downscale the images you use here. A height of 1024px should
 
 If you'd like to use tables inside your reciped (e.g. for your ingredients) just copy and paste this example and adjust to your liking:
 
-<pre>
-<table>
-    <thead>
-        <tr>
-            <!-- table header -->
-            <th>amount</th>
-            <th>ingredient</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <th>4</th>
-            <td>eggs, raw</td>
-        </tr>
-        <tr>
-            <th>1 litre</th>
-            <td>water</td>
-        </tr>
-    </tbody>
-</table>
-</pre>
+```
+  <table>
+      <thead>
+          <tr>
+              <!-- table header -->
+              <th>amount</th>
+              <th>ingredient</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <th>4</th>
+              <td>eggs, raw</td>
+          </tr>
+          <tr>
+              <th>1 litre</th>
+              <td>water</td>
+          </tr>
+      </tbody>
+  </table>
+```
 
 ## Known issues
 

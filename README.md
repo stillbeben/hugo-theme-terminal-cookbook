@@ -128,7 +128,7 @@ If you'd like to use tables inside your reciped (e.g. for your ingredients) just
 
 ## Known issues
 
-For some resolutions on bigger screens the featured images might become to big and break out of the table. If you have a fix for that please let me know.
+None right now. You can open an issue (or a pull request) if you find one.
 
 ## How to edit the theme
 
